@@ -1,10 +1,6 @@
-import * as React from 'react'
-import styles from './styles.module.css'
-
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+import show from "./show";
+import player from "./player";
+import stories from "./stories";
+export const Show = show;
+export const Player = player;
+export const Stories = stories;
