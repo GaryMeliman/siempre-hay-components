@@ -11505,17 +11505,17 @@ side-channel@^1.0.4, side-channel@^1.0.6:
     get-intrinsic "^1.2.4"
     object-inspect "^1.13.1"
 
-"siempre-hay-redux@link:../redux":
-  version "0.0.0"
-  uid ""
-
-"siempre-hay-services@https://github.com/GaryMeliman/siempre-hay-services":
+"siempre-hay-redux@git+https://github.com/GaryMeliman/siempre-hay-react-redux":
   version "0.0.1"
-  resolved "https://github.com/GaryMeliman/siempre-hay-services#8e09e06fac0ea759d796aed0957b3db68f85d0d2"
+  resolved "git+https://github.com/GaryMeliman/siempre-hay-react-redux#1a40d9c7f3e098477d7dd401f76c7e42ee69d41b"
 
-"siempre-hay-utils@link:../utils":
-  version "0.0.0"
-  uid ""
+"siempre-hay-services@git+https://github.com/GaryMeliman/siempre-hay-services":
+  version "0.0.1"
+  resolved "git+https://github.com/GaryMeliman/siempre-hay-services#8e09e06fac0ea759d796aed0957b3db68f85d0d2"
+
+"siempre-hay-utils@git+https://github.com/GaryMeliman/siempre-hay-utils":
+  version "0.0.1"
+  resolved "git+https://github.com/GaryMeliman/siempre-hay-utils#3ff7dc338c119c8cad0ab2c585239735ef0952ee"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
   version "3.0.7"

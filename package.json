@@ -65,9 +65,9 @@
     "prettier": "^2.0.4",
     "react-redux": "^9.1.0",
     "react-scripts": "^5.0.1",
-    "siempre-hay-redux": "link:../redux",
-    "siempre-hay-services": "https://github.com/GaryMeliman/siempre-hay-services",
-    "siempre-hay-utils": "link:../utils",
+    "siempre-hay-redux": "git+https://github.com/GaryMeliman/siempre-hay-react-redux",
+    "siempre-hay-services": "git+https://github.com/GaryMeliman/siempre-hay-services",
+    "siempre-hay-utils": "git+https://github.com/GaryMeliman/siempre-hay-utils",
     "tslib": "^2.6.2",
     "typescript": "^3.7.5"
   },
